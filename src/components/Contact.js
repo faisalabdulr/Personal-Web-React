@@ -9,7 +9,7 @@ const Contact = () => (
     <div className="form-wrapper">
       <form
         className="contact-form"
-        action="https://formspree.io/simo.edwin@yahoo.com"
+        action="https://formspree.io/f/xbjnldyv"
         method="POST"
       >
         <label> Name</label>

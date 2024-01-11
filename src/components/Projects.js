@@ -1,8 +1,8 @@
 import React from "react";
 import ProjectBox from "./ProjectBox";
-import swirl from "../img/swirl-website.jpg";
-import tap from "../img/tap-music.jpg";
-import weather from "../img/weather-app.jpg";
+import Ssatu from "../img/satu.png";
+import Sdua from "../img/dua.png";
+import Stiga from "../img/tiga.png";
 import ProjectAnimation from "./ProjectAnimation";
 
 const Projects = () => (
@@ -12,22 +12,22 @@ const Projects = () => (
     </div>
     <div className="project-list">
       <ProjectBox
-        visit="https://devedwin.github.io/Swirl-Website/"
-        title="Swirl Website"
-        image={swirl}
-        text="Designed for a Photography program. This is the mockup version."
+        visit="https://github.com/Web-1-RPLA/4601-tubes-festra"
+        title="Festra Website"
+        image={Ssatu}
+        text="Designed for a Dormitory application Festra."
       />
       <ProjectBox
-        visit="https://devedwin.github.io/tap-music/"
-        title="Tap Music"
-        image={tap}
-        text="A web app for creating sick beats with some added visuals!"
+        visit="https://github.com/faisalabdulr/LifeNotes.git"
+        title="Life Notes"
+        image={Sdua}
+        text="Website to do list with laravel"
       />
       <ProjectBox
-        visit="https://devedwin.github.io/weather-app/"
-        title="Weather App"
-        image={weather}
-        text="A geolocation based web app. Check it out in case you need an umbrella."
+        visit="https://github.com/faisalabdulr/Java_SIBIRU.git"
+        title="Sibiru App"
+        image={Stiga}
+        text="Java desktop GUI application."
       />
     </div>
     <ProjectAnimation />
